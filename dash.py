@@ -16,6 +16,7 @@ st.slider('SELECIONE UMA NOTA A VOCÊ NA ÁREA DA PROGRAMAÇÃO', 0, 10)
 st.image("prog.png") #inserir foto
 
 if st.button('FINALIZAR'):
+    st.balloons()
     st.success("Parabéns, Você Completou nossa Enquete!")
 else:
     st.info('Você precisa clicar no Botão Finalizar')
